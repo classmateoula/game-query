@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>找你妹</title>
+<script type="text/javascript" src="js/lufylegend-1.10.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="myGame"></div>
+	<script type="text/javascript">
+	window.onload=function(){
+		var w=document.documentElement.clientWidth;
+		var h=document.documentElement.clientHeight;
+		if(w<521){w=521};
+		if(h<600){h=600};
+		LInit(1000/30,"myGame",w,h,main,LEvent.INIT);
+	}
+	</script>
+</body>
+</html>
